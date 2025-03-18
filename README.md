@@ -16,7 +16,7 @@ Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 ## 💡Project Overview
 As fellows in the Break Through Tech AI Program, we participated in the WiDS Datathon 2025 on Kaggle. The WiDS Datathon Global Challenge was developed in partnership with the Ann S. Bowers Women’s Brain Health Initiative (WBHI), Cornell University, and UC Santa Barbara. The datasets and support are provided by the Healthy Brain Network (HBN), the signature scientific initiative of the Child Mind Institute, and the Reproducible Brain Charts project (RBC). This challenge provides a valuable opportunity to strengthen our data science skills while tackling an interesting and critical social impact challenge!
 
-## *Objective*
+## Objective
 The goal of the competition is to develop a predictive model that accurately predicts both an individual’s sex and their ADHD diagnosis using functional brain imaging data of children and adolescents and their socio-demographic, emotions, and parenting information. The challenge lies in handling complex, potentially imbalanced datasets and extracting meaningful patterns that improve prediction accuracy.
 
 ## **🎯 Project Highlights**
@@ -42,19 +42,19 @@ The goal of the competition is to develop a predictive model that accurately pre
 ## **📊 Data Exploration**
 
 Training datasets provided by the competition were named:
-TRAIN_CATEGORICAL_METADATA.xlsx
-TRAIN_QUANTITATIVE_METADATA.xlsx
-TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
+* TRAIN_CATEGORICAL_METADATA.xlsx
+* TRAIN_QUANTITATIVE_METADATA.xlsx
+* TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
 
 To conduct data exploration we:
-Used statistical methods such as .info() and .describe()
-Constructed histograms, bar plots, cross tab plots, and count plots
+* Used statistical methods such as .info() and .describe()
+* Constructed histograms, bar plots, cross tab plots, and count plots
 
 During exploratory data analysis, we discovered:
-More training data samples were classified as having ADHD than not (831 with ADHD and 382 without)
-There were more males than females in the training data (797 males and 416 females)
-There were no clear trends associated with ADHD and gender with the categorical features
-Connectivity between nodes (the 200 brain regions) ranges from -0.2 to 0.4
+* More training data samples were classified as having ADHD than not (831 with ADHD and 382 without)
+* There were more males than females in the training data (797 males and 416 females)
+* There were no clear trends associated with ADHD and gender with the categorical features
+* Connectivity between nodes (the 200 brain regions) ranges from -0.2 to 0.4
 
 ## **🧠 Model Development**
 
@@ -106,12 +106,15 @@ ADHD has historically been underdiagnosed and understudied in females, contribut
 ## **🚀 Next Steps & Future Improvements**
 
 * Potential Limitations
+  
 The model is subject to the following limitations: The dataset used was imbalanced, with a higher proportion of male subjects compared to female subjects, which may lead to greater-related bias in the predictions. Additionally, incorporating the categorical dataset may have introduced potential bias, as certain categories could disproportionately influence the model’s decisions. We also observed the risk of overfitting or underfitting, particularly due to the high ADHD predictions, which resulted in inflated scores in the Kaggle submission. 
 
 * What We Would Do Differently Given Time/Resources
+  
 With more time and resources, we would invest in exploring different model architectures and experiment with ensemble methods to enhance predictive performance. We would also dedicate more effort to extensive hyperparameter tuning to optimize the model’s accuracy. With additional resources, we would also consider using larger, more complex architectures to find more patterns and improve accuracy. Additionally, we would seek out larger or complementary datasets, particularly with more female subjects, to address the gender imbalance and reduce potential bias. 
 
 * Additional Datasets/Techniques We Would Explore
+  
 To further enhance our model, we would explore additional datasets incorporating external, publicly available data. We would also experiment with the weights of each dataset and how much it factors into the overall prediction. We would also experiment with other ensemble techniques and deep learning models to improve predictive performance. 
 
 
@@ -120,7 +123,9 @@ To further enhance our model, we would explore additional datasets incorporating
 ## **📄 References & Additional Resources**
 
 Alhamid, Mohammed. “Ensemble Models: What Are They and When Should You Use Them?” builtin, builtin, 2025, Ensemble Models: What Are They and When Should You Use Them? Accessed 24 2 2025.
+
 Preferred Networks, Inc. “Optuna.” Optuna, 2017, https://optuna.org/. Accessed 11 2 2025.
+
 PyG Team. “PyG Documentation.” pytorch-geometric, 2025, https://pytorch-geometric.readthedocs.io/en/latest/index.html. Accessed 28 1 2025.
 
 
