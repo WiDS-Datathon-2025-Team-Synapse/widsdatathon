@@ -5,6 +5,7 @@ Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 
 ## **🧠 Meet Team Synapse:**
 | Name | Contribution |
+|------|-------|
 | [Maya Patel](https://github.com/mpate154) | FMC Data: Experimenting with weighted classes, Oversampling and Undersampling, Node Connections, Optuna, Different GCN layers and Dropout, and Multi-Input model involving all 3 datasets. Quantitative Data: Exploration, Optimization |
 | [Julia Gu](https://github.com/juliag-27) | Quantitative Data: Upload, Exploration, Initial Models, Export. GCN: Exploration, Optuna Optimization on Accuracy & Optuna Optimization on F1 Score, Export |
 | [Kayla DePalma](https://github.com/kdepalma5) | Categorical Data: Exploratory Data Analysis + Visualization, Models, Hyperparameter Tuning, Feature Selection. Worked on Ensemble Model for Quantitative and Categorical data |
