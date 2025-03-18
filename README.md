@@ -3,17 +3,19 @@ Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 
 [Link](https://www.kaggle.com/competitions/widsdatathon2025/overview) to competition on Kaggle
 
-## 🧠 Meet Team Synapse:
-- [Maya Patel](https://github.com/mpate154)
-- [Julia Gu](https://github.com/juliag-27)
-- [Kayla DePalma](https://github.com/kdepalma5)
-- [Jannatul Nayeem](https://github.com/jannatulnayeem964)
+## **🧠 Meet Team Synapse:**
+| Name | Contribution |
+| [Maya Patel](https://github.com/mpate154) | FMC Data: Experimenting with weighted classes, Oversampling and Undersampling, Node Connections, Optuna, Different GCN layers and Dropout, and Multi-Input model involving all 3 datasets. Quantitative Data: Exploration, Optimization |
+| [Julia Gu](https://github.com/juliag-27) | Quantitative Data: Upload, Exploration, Initial Models, Export. GCN: Exploration, Optuna Optimization on Accuracy & Optuna Optimization on F1 Score, Export |
+| [Kayla DePalma](https://github.com/kdepalma5) | Categorical Data: Exploratory Data Analysis + Visualization, Models, Hyperparameter Tuning, Feature Selection. Worked on Ensemble Model for Quantitative and Categorical data |
+| [Jannatul Nayeem](https://github.com/jannatulnayeem964) |  Categorical Data Exploration + Model, Tested Different Sampling Techniques to Mitigate Bias: (Oversample, Undersample, Hybrid), Worked on Ensemble Model|
+
 <br/>
 
 ## 💡Project Overview
 As fellows in the Break Through Tech AI Program, we participated in the WiDS Datathon 2025 on Kaggle. The WiDS Datathon Global Challenge was developed in partnership with the Ann S. Bowers Women’s Brain Health Initiative (WBHI), Cornell University, and UC Santa Barbara. The datasets and support are provided by the Healthy Brain Network (HBN), the signature scientific initiative of the Child Mind Institute, and the Reproducible Brain Charts project (RBC). This challenge provides a valuable opportunity to strengthen our data science skills while tackling an interesting and critical social impact challenge!
 
-### *Objective*
+## *Objective*
 The goal of the competition is to develop a predictive model that accurately predicts both an individual’s sex and their ADHD diagnosis using functional brain imaging data of children and adolescents and their socio-demographic, emotions, and parenting information. The challenge lies in handling complex, potentially imbalanced datasets and extracting meaningful patterns that improve prediction accuracy.
 
 ## **🎯 Project Highlights**
@@ -69,38 +71,33 @@ Functional Connectome Matrices
 * Graph Convolutional Networks 
 
 Key model development techniques also varied widely across the three datasets. They included:
-
-Oversampling, Undersampling, Hybrid Sampling
-Model Selection
-One Hot Encoding
-Feature selection based on exploratory data analysis
-Grid Search
-Optuna
-Ensemble methods
-Multi-Input Models
+* Oversampling, Undersampling, Hybrid Sampling
+* Model Selection
+* One Hot Encoding
+* Feature selection based on exploratory data analysis
+* Grid Search
+* Optuna
+* Ensemble methods
+* Multi-Input Models
 
 A variety of tools and libraries were implemented for these techniques, specifically,
-Torch Geometric 
-Pandas
-Numpy
-Matplotlib
-Seaborn
-Optuna 
-Scikit-Learn
+* Torch Geometric 
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
+* Optuna 
+* Scikit-Learn
 ---
 
 ## **📈 Results & Key Findings**
-
-**Potential visualizations to include:**
-
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
 
 Evaluation metrics primarily focused on F1 Score and Accuracy. Some models were also analyzed for performance on a test dataset (a subset of training data that is not used in training).
 
 Our output dataset performed within the top 200 submissions in the WiDS Datathon, with an F1 score of 0.72. On the training set, our ADHD models had accuracy of 84.5% and train/test/split accuracy of 67.5%. On the other hand, the Sex_f models had an accuracy of 83.02% and a train/test/split accuracy of 62.3%.
 
 
-### *Real World Significance*
+## **🖼️Real World Significance**
 ADHD has historically been underdiagnosed and understudied in females, contributing to gaps in care and support. It affects approximately 11% of adolescents, with around 14% of boys and 8% of girls receiving a diagnosis. However, evidence suggests that girls with ADHD are often overlooked because they tend to exhibit more inattentive symptoms, which are harder to detect. As a result, undiagnosed girls may continue to struggle with symptoms that burden their mental health and daily functioning. Machine learning models capable of predicting ADHD and identifying gender-specific patterns could improve early detection, particularly in females, where diagnosis is more challenging. Additionally, these models can provide insights into the brain mechanisms underlying ADHD in both males and females, paving the way for more targeted and effective personalized treatments. Early identification and tailored therapies could significantly enhance mental health outcomes for individuals with ADHD.
 
 <br/>
