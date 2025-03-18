@@ -105,8 +105,25 @@ ADHD has historically been underdiagnosed and understudied in females, contribut
 
 <br/>
 
-## 🔍 Data Exploration
-Training Datasets:
-- TRAIN_CATEGORICAL_METADATA.xlsx
-- TRAIN_QUANTITATIVE_METADATA.xlsx
-- TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
+## **🚀 Next Steps & Future Improvements**
+
+* Potential Limitations
+The model is subject to the following limitations: The dataset used was imbalanced, with a higher proportion of male subjects compared to female subjects, which may lead to greater-related bias in the predictions. Additionally, incorporating the categorical dataset may have introduced potential bias, as certain categories could disproportionately influence the model’s decisions. We also observed the risk of overfitting or underfitting, particularly due to the high ADHD predictions, which resulted in inflated scores in the Kaggle submission. 
+
+* What We Would Do Differently Given Time/Resources
+With more time and resources, we would invest in exploring different model architectures and experiment with ensemble methods to enhance predictive performance. We would also dedicate more effort to extensive hyperparameter tuning to optimize the model’s accuracy. With additional resources, we would also consider using larger, more complex architectures to find more patterns and improve accuracy. Additionally, we would seek out larger or complementary datasets, particularly with more female subjects, to address the gender imbalance and reduce potential bias. 
+
+* Additional Datasets/Techniques We Would Explore
+To further enhance our model, we would explore additional datasets incorporating external, publicly available data. We would also experiment with the weights of each dataset and how much it factors into the overall prediction. We would also experiment with other ensemble techniques and deep learning models to improve predictive performance. 
+
+
+---
+
+## **📄 References & Additional Resources**
+
+Alhamid, Mohammed. “Ensemble Models: What Are They and When Should You Use Them?” builtin, builtin, 2025, Ensemble Models: What Are They and When Should You Use Them? Accessed 24 2 2025.
+Preferred Networks, Inc. “Optuna.” Optuna, 2017, https://optuna.org/. Accessed 11 2 2025.
+PyG Team. “PyG Documentation.” pytorch-geometric, 2025, https://pytorch-geometric.readthedocs.io/en/latest/index.html. Accessed 28 1 2025.
+
+
+
