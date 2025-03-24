@@ -48,7 +48,7 @@ Training datasets provided by the competition were named:
 
 To conduct data exploration we:
 * Used statistical methods such as .info() and .describe()
-* Constructed histograms, bar plots, cross tab plots, and count plots
+* Constructed histograms, bar plots, cross tab plots, and count plots to visualize distributions
 
 During exploratory data analysis, we discovered:
 * More training data samples were classified as having ADHD than not (831 with ADHD and 382 without)
@@ -95,7 +95,7 @@ A variety of tools and libraries were implemented for these techniques, specific
 
 Evaluation metrics primarily focused on F1 Score and Accuracy. Some models were also analyzed for performance on a test dataset (a subset of training data that is not used in training).
 
-Our output dataset performed within the top 200 submissions in the WiDS Datathon, with an F1 score of 0.72. On the training set, our ADHD models had accuracy of 84.5% and train/test/split accuracy of 67.5%. On the other hand, the Sex_f models had an accuracy of 83.02% and a train/test/split accuracy of 62.3%.
+Our output dataset performed within the top 200 submissions in the WiDS Datathon, with an F1 score of 0.75. On the training set, our ADHD models had accuracy of 84.5% and train/test/split accuracy of 67.5%. On the other hand, the Sex_f models had an accuracy of 83.02% and a train/test/split accuracy of 62.3%. Because of the nature of the dataset and F1 evaluation criteria, we found a significant improvement of our Kaggle submission by predicting female for most samples.
 
 
 ## **🖼️Real World Significance**
@@ -107,7 +107,7 @@ ADHD has historically been underdiagnosed and understudied in females, contribut
 
 * Potential Limitations
   
-The model is subject to the following limitations: The dataset used was imbalanced, with a higher proportion of male subjects compared to female subjects, which may lead to greater-related bias in the predictions. Additionally, incorporating the categorical dataset may have introduced potential bias, as certain categories could disproportionately influence the model’s decisions. We also observed the risk of overfitting or underfitting, particularly due to the high ADHD predictions, which resulted in inflated scores in the Kaggle submission. 
+The model is subject to the following limitations: The dataset used was imbalanced, with a higher proportion of male subjects compared to female subjects, which may lead to greater-related bias in the predictions. Additionally, incorporating the categorical dataset may have introduced potential bias, as certain categories could disproportionately influence the model’s decisions. We also observed the risk of overfitting or underfitting, particularly due to the high ADHD and low female predictions, which resulted in inflated scores in the Kaggle submission. 
 
 * What We Would Do Differently Given Time/Resources
   
