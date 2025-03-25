@@ -98,7 +98,7 @@ Evaluation metrics primarily focused on F1 Score and Accuracy. Some models were 
 Our output dataset performed within the top 200 submissions in the WiDS Datathon, with an F1 score of 0.75. On the training set, our ADHD models had accuracy of 84.5% and train/test/split accuracy of 67.5%. On the other hand, the Sex_f models had an accuracy of 83.02% and a train/test/split accuracy of 62.3%. Because of the nature of the dataset and F1 evaluation criteria, we found a significant improvement of our Kaggle submission by predicting female for most samples.
 
 
-## **🖼️Real World Significance**
+## **🖼️ Impact Narrative**
 ADHD has historically been underdiagnosed and understudied in females, contributing to gaps in care and support. It affects approximately 11% of adolescents, with around 14% of boys and 8% of girls receiving a diagnosis. However, evidence suggests that girls with ADHD are often overlooked because they tend to exhibit more inattentive symptoms, which are harder to detect. As a result, undiagnosed girls may continue to struggle with symptoms that burden their mental health and daily functioning. Machine learning models capable of predicting ADHD and identifying gender-specific patterns could improve early detection, particularly in females, where diagnosis is more challenging. Additionally, these models can provide insights into the brain mechanisms underlying ADHD in both males and females, paving the way for more targeted and effective personalized treatments. Early identification and tailored therapies could significantly enhance mental health outcomes for individuals with ADHD.
 
 <br/>
