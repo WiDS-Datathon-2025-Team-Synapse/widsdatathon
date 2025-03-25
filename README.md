@@ -13,10 +13,10 @@ Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 
 <br/>
 
-## 💡Project Overview
+## **💡Project Overview**
 As fellows in the Break Through Tech AI Program, we participated in the WiDS Datathon 2025 on Kaggle. The WiDS Datathon Global Challenge was developed in partnership with the Ann S. Bowers Women’s Brain Health Initiative (WBHI), Cornell University, and UC Santa Barbara. The datasets and support are provided by the Healthy Brain Network (HBN), the signature scientific initiative of the Child Mind Institute, and the Reproducible Brain Charts project (RBC). This challenge provides a valuable opportunity to strengthen our data science skills while tackling an interesting and critical social impact challenge!
 
-## Objective
+## **🌍Impact Narrative**
 The goal of the competition is to develop a predictive model that accurately predicts both an individual’s sex and their ADHD diagnosis using functional brain imaging data of children and adolescents and their socio-demographic, emotions, and parenting information. The challenge lies in handling complex, potentially imbalanced datasets and extracting meaningful patterns that improve prediction accuracy.
 
 ## **🎯 Project Highlights**
