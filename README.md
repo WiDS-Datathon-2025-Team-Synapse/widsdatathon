@@ -14,15 +14,15 @@ Unraveling the Mysteries of the Female Brain: Sex Patterns in ADHD
 <br/>
 
 ## **💡Project Overview**
-As fellows in the Break Through Tech AI Program, we participated in the WiDS Datathon 2025 on Kaggle. The WiDS Datathon Global Challenge was developed in partnership with the Ann S. Bowers Women’s Brain Health Initiative (WBHI), Cornell University, and UC Santa Barbara. The datasets and support are provided by the Healthy Brain Network (HBN), the signature scientific initiative of the Child Mind Institute, and the Reproducible Brain Charts project (RBC). This challenge provides a valuable opportunity to strengthen our data science skills while tackling an interesting and critical social impact challenge!
+As fellows in the **Break Through Tech AI Program**, we participated in the WiDS Datathon 2025 on Kaggle. The WiDS Datathon Global Challenge was developed in partnership with the Ann S. Bowers Women’s Brain Health Initiative (WBHI), Cornell University, and UC Santa Barbara. The datasets and support are provided by the Healthy Brain Network (HBN), the signature scientific initiative of the Child Mind Institute, and the Reproducible Brain Charts project (RBC). This challenge provides a valuable opportunity to strengthen our data science skills while tackling an interesting and critical social impact challenge!
 
-## **🌍 Objective**
-The goal of the competition is to develop a predictive model that accurately predicts both an individual’s sex and their ADHD diagnosis using functional brain imaging data of children and adolescents and their socio-demographic, emotions, and parenting information. The challenge lies in handling complex, potentially imbalanced datasets and extracting meaningful patterns that improve prediction accuracy.
+## **✅ Objective**
+The goal of the competition is to develop a predictive model that accurately predicts both an ***individual’s sex*** and their ***ADHD diagnosis*** using functional brain imaging data of children and adolescents and their socio-demographic, emotions, and parenting information. The challenge lies in handling complex, potentially imbalanced datasets and extracting meaningful patterns that improve prediction accuracy.
 
 ## **🎯 Project Highlights**
 
 * Built a Graph Convolution Network (GCN) using an adjacency matrix with a half-connected graph based on Functional Connectome Matrix data to predict ADHD Outcome and Sex labels. 
-* Achieved an F1 score of 0.72 and a ranking of 206 on the final Kaggle Leaderboard
+* Achieved an ***F1 score of 0.74*** and a ranking of 145 on the final Kaggle Leaderboard
 * Used summations of the models guesses in each label to interpret model decisions
 * Implemented device-aware computation using torch.device and reduced graph connectivity to lower computational overhead, while leveraging NumPy arrays for efficient data handling within Google Colab's hardware constraints.
 
@@ -56,7 +56,7 @@ During exploratory data analysis, we discovered:
 * There were no clear trends associated with ADHD and gender with the categorical features
 * Connectivity between nodes (the 200 brain regions) ranges from -0.2 to 0.4
 
-## **🧠 Model Development**
+## **🛠️ Model Development**
 
 We used different models depending on which of the three datasets we worked with, listed below.
 
