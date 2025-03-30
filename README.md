@@ -70,7 +70,7 @@ Training datasets provided by the competition included 4 types of information fr
        * ![image](https://github.com/user-attachments/assets/c059b17e-bcd4-4d16-9737-5b91c793c8ed)
        * ![image](https://github.com/user-attachments/assets/0b7181af-a9d8-445a-b68a-aa734c4cdd0b)
 * TRAIN_QUANTITATIVE_METADATA.xlsx
-    * 
+    * (finish) 
 * TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
     * Functional MRI connectome matrices of 999 regions of the brain where redundant (for example region 88's correlation with itself) were removed. For this dataset, adjacency matrices and connected graphs were used in order to utilize the dataset for training.
 * Corresponding test files for each dataset
@@ -123,7 +123,7 @@ A variety of tools and libraries were implemented for these techniques, specific
 
 ## **✨ Our Submitted Model**
 
-We submitted a __ which utilized the __ (and) __ dataset(s). Our final hyperparameters were __.  It took approxiamtely __to train. We knew women with ADHD were a minority in the dataset, so we had our model predict heavily towards this outcome. This ended up working the best because __?__ and the strategy used to calculate the final F1 score on Kaggle puts more weight on the cases which include women who have ADHD. (Do you have a curve of training loss over time you can include?)  
+We submitted a __ which utilized the __ (and) __ dataset(s). Our final hyperparameters were __.  It took approxiamtely __to train. We knew women with ADHD were a minority in the dataset, so we had our model predict heavily towards this outcome. This ended up working the best because __?__ and the strategy used to calculate the final F1 score on Kaggle puts more weight on the cases which include women who have ADHD. (Do you have a curve of training loss over time you can include?)  (Make sure you describe the specifics of the weighted F1 score the WiDS people use. It might be good to show what your model's predictions were, perhaps in an appendix. I'd be curious to know whether, for example, the distribution of sex and adhd in the predictions for the test set is the same as the ground truth distribution of those characteristics in the training set.)
 
 ## **📈 Results & Key Findings**
 
