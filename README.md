@@ -70,9 +70,16 @@ Training datasets provided by the competition included 4 types of information fr
        * ![image](https://github.com/user-attachments/assets/c059b17e-bcd4-4d16-9737-5b91c793c8ed)
        * ![image](https://github.com/user-attachments/assets/0b7181af-a9d8-445a-b68a-aa734c4cdd0b)
 * TRAIN_QUANTITATIVE_METADATA.xlsx
-    * (finish) 
+    * Examples of Data Exploration with Quantitative Data
+      * ![image](https://github.com/user-attachments/assets/b89855ef-96c3-499d-ba4e-a493cff56cb7)
+      * ![image](https://github.com/user-attachments/assets/fd771b49-58b3-49c9-8847-4575f720c51a)
+      * ![image](https://github.com/user-attachments/assets/3840bfbf-308a-4cd8-8f0a-66f234f28da3)
+
 * TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
     * Functional MRI connectome matrices of 999 regions of the brain where redundant (for example region 88's correlation with itself) were removed. For this dataset, adjacency matrices and connected graphs were used in order to utilize the dataset for training.
+   * Visualization:
+     * ![image](https://github.com/user-attachments/assets/661c4a63-1094-475b-be71-3e841c0f6109)
+
 * Corresponding test files for each dataset
     * Included the target variables Sex and ADHD diagnosis.
     * |            | 0      | 1            |
