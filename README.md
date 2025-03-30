@@ -75,6 +75,10 @@ Training datasets provided by the competition included 4 types of information fr
     * Functional MRI connectome matrices of 999 regions of the brain where redundant (for example region 88's correlation with itself) were removed. For this dataset, adjacency matrices and connected graphs were used in order to utilize the dataset for training.
 * Corresponding test files for each dataset
     * Included the target variables Sex and ADHD diagnosis.
+    * |            | 0      | 1            |
+      |------------|--------|--------------|
+      |ADHD Outcome| No ADHD| Has ADHD     |
+      |Sex_F       | Male   | Female       | 
     * ![image](https://github.com/user-attachments/assets/2bfed068-77eb-4bec-b256-eaacca69328d)
 
 
