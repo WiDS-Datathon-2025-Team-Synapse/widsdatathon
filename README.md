@@ -41,10 +41,15 @@ The goal of the competition is to develop a predictive model that accurately pre
 
 ## **📊 Data Exploration**
 
-Training datasets provided by the competition were named:
+Training datasets provided by the competition included 4 types of information from over 1,200 subjects and were named:
 * TRAIN_CATEGORICAL_METADATA.xlsx
+    * 
 * TRAIN_QUANTITATIVE_METADATA.xlsx
+    * 
 * TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
+    * Functional MRI connectome matrices of 999 regions of the brain where redundant (for example region 88's correlation with itself) were removed. For this dataset, adjacency matrices and connected graphs were used in order to utilize the dataset for training.
+* Corresponding test files for each dataset
+    * Included the target variables Sex and ADHD diagnosis. 
 
 To conduct data exploration we:
 * Used statistical methods such as .info() and .describe()
@@ -90,6 +95,10 @@ A variety of tools and libraries were implemented for these techniques, specific
 * Optuna 
 * Scikit-Learn
 ---
+
+## **✨ Our Submitted Model**
+
+We submitted a __ which utilized the __ (and) __ dataset(s). Our final hyperparameters were __.  It took approxiamtely __to train. We knew women with ADHD were a minority in the dataset, so we had our model predict heavily towards this outcome. This ended up working the best because __?__ and the strategy used to calculate the final F1 score on Kaggle puts more weight on the cases which include women who have ADHD. (Do you have a curve of training loss over time you can include?)  
 
 ## **📈 Results & Key Findings**
 
