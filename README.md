@@ -43,7 +43,32 @@ The goal of the competition is to develop a predictive model that accurately pre
 
 Training datasets provided by the competition included 4 types of information from over 1,200 subjects and were named:
 * TRAIN_CATEGORICAL_METADATA.xlsx
-    * 
+    * The categorical dataset contains participant-level information across demographic, familial, and MRI-related dimensions. It includes 10 features (plus participant_id) that are largely categorical or ordinal in nature, sourced from validated instruments and demographic surveys.
+    * Demographic:
+         * Basic_Demos_Enroll_Year: Year the participant enrolled in the study (6 unique values)
+         * Basic_Demos_Study_Site: Location of the phenotypic testing (4 unique sites)
+    * Family Background (Barratt Scale):
+         * Barratt_Barratt_P1_Edu & Barratt_Barratt_P2_Edu: Education levels of Parent 1 and Parent 2, with 7 categories ranging from less than 7th grade to graduate/professional training.
+         * Barratt_Barratt_P1_Occ & Barratt_Barratt_P2_Occ: Parent occupations (10 categories), including stay-at-home, laborers, and professionals
+    * MRI Scan Information:
+         * MRI_Track_Scan_Location: Location where the participant's MRI was performed (4 locations, i.e. Staten Island, CBIC).
+    * Child's Demographics:
+         * PreInt_Demos_Fam_Child_Ethnicity: Ethnicity (i.e. Hispanic or Latino, Not Hispanic)
+         * PreInt_Demos_Fam_Child_Race: Race (10 categories including White, Black, Asian, Multiracial).
+    * ID Field:
+         * participant_id: A unique identifier for each subject (1213 unique entries)
+    * Data Quality Notes:
+       * Some variables, especially Parent 2 contain substantial missing data (up to 18%)
+       * All categorical variables are either enoded as integers or floats, and many have clear label definitions available via the data dictionary (i.e. 0 = "Not Hispanic", 1 = "Hispanic or Latino"
+    * Example of Types of Data Exploration Done with Categorical Data
+       * ![image](https://github.com/user-attachments/assets/f298fe53-c3a1-4f25-a26d-7fe1d895380a)
+       * ![image](https://github.com/user-attachments/assets/5ad965dd-7c8b-4012-b47c-65a7ae6b8326)
+       * ![image](https://github.com/user-attachments/assets/a6f8ac18-fbf0-4225-b2e5-45f5d807714d)
+       * ![image](https://github.com/user-attachments/assets/6f337987-70a9-4e90-9833-c3acec12a7f1)
+       * ![image](https://github.com/user-attachments/assets/b365efff-07c4-4d51-bdba-8a5d24956611)
+       * ![image](https://github.com/user-attachments/assets/edd4944a-c18c-4c3c-a0de-f101a3b11270)
+       * ![image](https://github.com/user-attachments/assets/c059b17e-bcd4-4d16-9737-5b91c793c8ed)
+       * ![image](https://github.com/user-attachments/assets/0b7181af-a9d8-445a-b68a-aa734c4cdd0b)
 * TRAIN_QUANTITATIVE_METADATA.xlsx
     * 
 * TRAIN_FUNCTIONAL_CONNECTOME_MATRICES.csv
