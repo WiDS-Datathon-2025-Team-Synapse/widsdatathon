@@ -71,7 +71,6 @@ Training datasets provided by the competition included 4 types of information fr
        * ![image](https://github.com/user-attachments/assets/0b7181af-a9d8-445a-b68a-aa734c4cdd0b)
 * TRAIN_QUANTITATIVE_METADATA.xlsx
     * Examples of Data Exploration with Quantitative Data
-      * ![image](https://github.com/user-attachments/assets/b89855ef-96c3-499d-ba4e-a493cff56cb7)
       * ![image](https://github.com/user-attachments/assets/fd771b49-58b3-49c9-8847-4575f720c51a)
       * ![image](https://github.com/user-attachments/assets/3840bfbf-308a-4cd8-8f0a-66f234f28da3)
 
@@ -86,7 +85,7 @@ Training datasets provided by the competition included 4 types of information fr
       |------------|--------|--------------|
       |ADHD Outcome| No ADHD| Has ADHD     |
       |Sex_F       | Male   | Female       | 
-    * ![image](https://github.com/user-attachments/assets/2bfed068-77eb-4bec-b256-eaacca69328d)
+    * ![image](https://github.com/user-attachments/assets/5f8bb491-fc2b-415f-a2cd-639f77fbcaed)
 
 
 To conduct data exploration we:
